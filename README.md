@@ -1,0 +1,1 @@
+# saleor-wishlist-plugin
