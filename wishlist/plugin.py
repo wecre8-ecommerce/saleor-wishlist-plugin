@@ -7,7 +7,7 @@ from wishlist.graphql.schema import schema
 class WishlistPlugin(BasePlugin):
     PLUGIN_ID = "wishlist"
     PLUGIN_NAME = "wishlist"
-    name = "wishlist.graphql"
+    name = "wishlist"
     DEFAULT_ACTIVE = True
     CONFIGURATION_PER_CHANNEL = False
 
