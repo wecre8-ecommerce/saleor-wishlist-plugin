@@ -6,7 +6,7 @@ setup(
     packages=["wishlist"],
     package_dir={"wishlist": "wishlist"},
     description="Wishlist integration",
-    install_requires=["graphene_federation"],
+    install_requires=["graphene-django"],
     entry_points={
         "saleor.plugins": ["wishlist = wishlist.plugin:WishlistPlugin"],
     },
